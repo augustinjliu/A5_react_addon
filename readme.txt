@@ -1,1 +1,1 @@
-Citation: ChatGPT was used to help generate the code for the containers of my app as well as for assisting with my intended format in styles.css.
+Citation: ChatGPT was used to help generate the code for the containers of my app as well as for assisting with my intended format in styles.css. Images/assets were sourced from Google Images. I also used it to help me learn and code the javascript in order to implement the interactive functionality for the add-on.

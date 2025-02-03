@@ -39,13 +39,23 @@ h1 {
 .toggle-label {
     font-size: 14px;
     margin: 0 10px;
+    transition: color 0.3s ease;
+    opacity: 0.5;
 }
 
-.true-temp {
+.toggle-label.active {
+    opacity: 1;
+}
+
+.true-temp.active {
     color: #ff4d4d;
 }
 
-.feels-like {
+.true-temp.active {
+    color: #ff4d4d;
+}
+
+.feels-like.active {
     color: #4dff4d;
 }
 
@@ -136,24 +146,15 @@ input:checked + .slider:before {
     font-size: 14px;
 }
 
-.wind-box {
-    text-align: center;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .wind-speed {
     font-size: 36px;
     font-weight: bold;
-    margin-bottom: 5px;
 }
 
 .wind-icon {
     width: 40px;
     height: auto;
+    margin-top: 5px;
 }
 
 .precip-icon {

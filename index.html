@@ -11,9 +11,9 @@
         <h1>Philadelphia</h1>
         
         <div class="toggle-container">
-            <span class="toggle-label true-temp">True Temps</span>
+            <span class="toggle-label true-temp active">True Temps</span>
             <label class="switch">
-                <input type="checkbox">
+                <input type="checkbox" id="tempToggle">
                 <span class="slider round"></span>
             </label>
             <span class="toggle-label feels-like">Feels Like</span>
@@ -23,8 +23,8 @@
             <div class="card-header">Now</div>
             <div class="current-weather">
                 <div class="temp-box">
-                    <div class="current-temp">28°</div>
-                    <div class="high-low">H: 40° L: 25°</div>
+                    <div class="current-temp" id="currentTemp">28°</div>
+                    <div class="high-low">H: <span id="highTemp">40°</span> L: <span id="lowTemp">25°</span></div>
                 </div>
                 <div class="wind-box">
                     <div class="wind-speed">8 mph</div>
@@ -44,32 +44,32 @@
                 <div class="hour-box">
                     <div>Now</div>
                     <div>☁️</div>
-                    <div class="hour-temp">28°</div>
+                    <div class="hour-temp temp-value">28°</div>
                 </div>
                 <div class="hour-box">
                     <div>3 pm</div>
                     <div>⛅</div>
-                    <div class="hour-temp">30°</div>
+                    <div class="hour-temp temp-value">30°</div>
                 </div>
                 <div class="hour-box">
                     <div>4 pm</div>
                     <div>☁️</div>
-                    <div class="hour-temp">29°</div>
+                    <div class="hour-temp temp-value">29°</div>
                 </div>
                 <div class="hour-box">
                     <div>5 pm</div>
                     <div>🌧️</div>
-                    <div class="hour-temp">30°</div>
+                    <div class="hour-temp temp-value">30°</div>
                 </div>
                 <div class="hour-box">
                     <div>6 pm</div>
                     <div>🌧️</div>
-                    <div class="hour-temp">32°</div>
+                    <div class="hour-temp temp-value">32°</div>
                 </div>
                 <div class="hour-box">
                     <div>7 pm</div>
                     <div>☁️</div>
-                    <div class="hour-temp">31°</div>
+                    <div class="hour-temp temp-value">31°</div>
                 </div>
             </div>
         </div>
@@ -81,76 +81,78 @@
                     <span class="day-name">Today 1/31</span>
                     <span class="day-icon">☁️</span>
                     <div class="temp-range">
-                        <span>25°</span>
+                        <span class="temp-value">25°</span>
                         <div class="temp-line"></div>
-                        <span>40°</span>
+                        <span class="temp-value">40°</span>
                     </div>
                 </div>
                 <div class="day-forecast">
                     <span class="day-name">Sat 2/1</span>
                     <span class="day-icon">☀️</span>
                     <div class="temp-range">
-                        <span>35°</span>
+                        <span class="temp-value">35°</span>
                         <div class="temp-line"></div>
-                        <span>49°</span>
+                        <span class="temp-value">49°</span>
                     </div>
                 </div>
                 <div class="day-forecast">
                     <span class="day-name">Sun 2/2</span>
                     <span class="day-icon">☀️</span>
                     <div class="temp-range">
-                        <span>28°</span>
+                        <span class="temp-value">28°</span>
                         <div class="temp-line"></div>
-                        <span>42°</span>
+                        <span class="temp-value">42°</span>
                     </div>
                 </div>
                 <div class="day-forecast">
                     <span class="day-name">Mon 2/3</span>
                     <span class="day-icon">☀️</span>
                     <div class="temp-range">
-                        <span>43°</span>
+                        <span class="temp-value">43°</span>
                         <div class="temp-line"></div>
-                        <span>45°</span>
+                        <span class="temp-value">45°</span>
                     </div>
                 </div>
                 <div class="day-forecast">
                     <span class="day-name">Tue 2/4</span>
                     <span class="day-icon">☁️</span>
                     <div class="temp-range">
-                        <span>23°</span>
+                        <span class="temp-value">23°</span>
                         <div class="temp-line"></div>
-                        <span>31°</span>
+                        <span class="temp-value">31°</span>
                     </div>
                 </div>
                 <div class="day-forecast">
                     <span class="day-name">Wed 2/5</span>
                     <span class="day-icon">☀️</span>
                     <div class="temp-range">
-                        <span>35°</span>
+                        <span class="temp-value">35°</span>
                         <div class="temp-line"></div>
-                        <span>52°</span>
+                        <span class="temp-value">52°</span>
                     </div>
                 </div>
                 <div class="day-forecast">
                     <span class="day-name">Thur 2/6</span>
                     <span class="day-icon">☀️</span>
                     <div class="temp-range">
-                        <span>50°</span>
+                        <span class="temp-value">50°</span>
                         <div class="temp-line"></div>
-                        <span>53°</span>
+                        <span class="temp-value">53°</span>
                     </div>
                 </div>
                 <div class="day-forecast">
                     <span class="day-name">Fri 2/7</span>
                     <span class="day-icon">☀️</span>
                     <div class="temp-range">
-                        <span>47°</span>
+                        <span class="temp-value">47°</span>
                         <div class="temp-line"></div>
-                        <span>49°</span>
+                        <span class="temp-value">49°</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
