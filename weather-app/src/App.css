@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  color: white;
+}
+
+.weather-container {
+  max-width: 500px;
+  width: 100%;
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+}
+
+.card {
+  background-color: rgba(107, 114, 128, 0.7);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.card-header {
+  background-color: rgb(6, 182, 212);
+  padding: 8px 16px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.card-content {
+  padding: 24px;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.toggle-switch {
+  position: relative;
+  display: inline-flex;
+  width: 44px;
+  height: 24px;
+  background-color: rgb(96, 165, 250);
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.toggle-switch-circle {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border-radius: 9999px;
+  margin: 4px;
+  transition: transform 0.2s;
+}
+
+.toggle-switch-circle.active {
+  transform: translateX(20px);
+}
+
+.true-temps {
+  color: rgb(239, 68, 68);
+  font-weight: 500;
+}
+
+.true-temps.inactive {
+  color: rgb(156, 163, 175);
+}
+
+.feels-like {
+  color: rgb(34, 197, 94);
+  font-weight: 500;
+}
+
+.feels-like.inactive {
+  color: rgb(156, 163, 175);
+}
