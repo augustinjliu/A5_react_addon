@@ -1,1 +1,1 @@
-Citation: ChatGPT was used to help debug the code for the reimplementation of my app. Images/assets were sourced from Google Images. I also used it to help me learn and code the React in order to implement the interactive functionality for the add-on.
+Citation: In addition to the resources given to us in the Add-On Write-up, ChatGPT was used to help debug the code for the reimplementation of my app. Images/assets were sourced from Google Images. I also used it to help me learn and code the React in order to implement the interactive functionality for the add-on.
